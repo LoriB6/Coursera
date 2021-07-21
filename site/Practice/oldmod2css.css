@@ -1,0 +1,85 @@
+* {box-sizing: border-box
+margin: 0;
+padding: 0;}
+h1 {
+	font-size: 30px;
+	color: 000000;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#chicken {color: 000000;
+font font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color:  #FCF902;
+width: 33.33%;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+padding: 2px;
+margin-right: 0px;
+margin-top: 0px;
+position:  absolute;
+top:  0;
+right:  0;
+ }
+
+#beef {color: 000000;
+font font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color:  #02FCF5;
+width: 33.33%;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+padding: 2px;
+margin-top: 0px;
+margin-right: 0px;
+float:  right;
+
+ }
+#pork {color: 000000;
+font font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+background-color:  #11FC02;
+width: 8.33%;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+padding: 2px;
+margin: 0px;
+ }
+
+.grayboxes {
+font-family: Arial, Helvetica, sans-serif;
+color:  #000000;
+background-color:  #F0F0EC ;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+padding: 20px;
+float: left;
+width: 90%;
+margin-right: auto;
+margin-left: auto;
+display:  flex;
+flex-direction: flow;
+flex-wrap: wrap;
+}
+#div1 {
+	position:  relative;
+}
+#div2 {
+	position:  relative;
+}
+#div3 {
+	position:  relative;
+}
+@media screen (min-width: 992px) {#grid {
+	display: grid;
+	grid-template-columns: repeat (3, 1fr) ;
+	}}
+@media screen (min-width: 768px) and (max-width: 991px) {.grayboxes {width: 50%}}
+@media screen (max-width: 767px) {.grayboxes {width: 80%}}
+
+	
+
